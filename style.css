@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+/* 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  } */
+
+@font-face {
+    font-family: myfont;
+    src: url(Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: myfont1;
+    src: url(Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url(Poppins-Bold.ttf);
+}
+
+.sidelist {
+    box-sizing: border-box;
+    background-color: black;
+    width: 300px;
+    max-width: 30%;
+    height: 100%;
+    position: fixed;
+    padding-left: 70px;
+    border-right: 1px solid gray;
+}
+
+.logo {
+    fill: white;
+    height: 50px;
+    width: 30px;
+    
+}
+
+nav {
+    font-size: 20px;
+    color: white;
+
+}
+
+nav .align {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+nav .align a {
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+nav .align a svg {
+    fill: white;
+    height: 45px;
+    width: 25px;
+}
+
+span {
+    padding-left: 15px;
+    font-family: myfont;
+}
+
+.btn button {
+    font-family: myfont1;
+    font-size: 17px;
+    color: white;
+    width: 215px;
+    height: 52px;
+    border-radius: 32px;
+    border: none;
+    background-color: rgb(29, 155, 240);
+    align-self: center;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+.imgp {
+    margin-top: 17px;
+    margin-left: -20px;
+}
+
+main {
+    left: 300px;
+    top: 0;
+    position: sticky;
+    width: 1300px;
+    max-width: 50%;
+    background-color: black;
+    height: 100%;
+    
+}
+.btnn {
+    box-sizing: border-box;
+    width: 307.3px;
+    height: 50px;
+    background-color: black;
+    color: rgb(145, 143, 143);
+    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.btnn:hover {
+    background-color: rgb(41, 38, 38);
+    color: white;
+    font-family: myfont1;
+}
+
+.btn2 {
+    margin-left: -4px;
+}
+
+.box11 {
+    border: 1px solid gray;
+    height: 50px;
+    width: 615px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: myfont;
+}
+
+.box11 .posts {
+    color: rgb(29, 155, 240);
+}
+
+.right {
+    position: sticky;
+    left: 915px;
+    top: -800px;
+    background-color: black;
+    height: 100%;
+    width: 450px;
+    max-width: 40%;
+    border-left: 1px solid gray;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.searchbtn {
+    box-sizing: border-box;
+    margin-top: 5px;
+    width: 360px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: rgb(37, 37, 37);
+    border: none;
+    color: rgb(148, 147, 146);
+    padding-bottom: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+.searchbtn svg {
+    height: 20px;
+    width: 20px;
+    padding: 10px 0 0 15px;
+    fill: rgb(148, 147, 146);
+}
+
+.searchbtn span {
+    padding: 10px 0 0 15px;
+    font-size: 14px;
+}
+
+.box1 {
+    margin-top: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 350px;
+    height: 160px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    padding: 15px;
+}
+
+.head3 {
+    color: white;
+    font-size: 20px;
+    font-family: myfont2;
+}
+
+.parah1 {
+    font-family: myfont;
+    color: white;
+    font-size: 14px;
+}
+
+.subscribe {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border:none;
+    height: 40px;
+    width: 120px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.box2 {
+    margin-top: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 350px;
+    height: 780px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    padding: 15px;
+}
+
+.head2 {
+    color: white;
+    font-size: 20px;
+    font-family: myfont2;
+}
+
+.imgtext {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.imgtext img {
+    height: 80px;
+    width: 80px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.parah {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgtext .par1 {
+    font-family: myfont2;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.imgtext .par2 {
+    font-family: myfont;
+    color: rgb(133, 133, 133);
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.text1 {
+    margin-top: 30px;
+}
+
+.text1 .par11{
+    font-family: myfont;
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.text1 .par12 {
+    font-family: myfont2;
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.text1 .par13{
+    font-family: myfont;
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.text2 {
+    margin-top: 30px;
+}
+
+.text2 .par21{
+    font-family: myfont;
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.text2 .par22 {
+    font-family: myfont2;
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.text2 .par23{
+    font-family: myfont;
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.text3 {
+    margin-top: 30px;
+}
+
+.text3 .par31{
+    font-family: myfont;
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.text3 .par32 {
+    font-family: myfont2;
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.text3 .par33{
+    font-family: myfont;
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.text4 {
+    margin-top: 30px;
+}
+
+.text4 .par41{
+    font-family: myfont;
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.text4 .par42 {
+    font-family: myfont2;
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.text4 .par43{
+    font-family: myfont;
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+
+.text5 {
+    margin-top: 30px;
+}
+
+.text5 .par51{
+    font-family: myfont;
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.text5 .par52 {
+    font-family: myfont2;
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.text5 .par53{
+    font-family: myfont;
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+
+.text6 {
+    margin-top: 30px;
+}
+
+.text6 .par61{
+    font-family: myfont;
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.text6 .par62 {
+    font-family: myfont2;
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+.text7 {
+    margin-top: 30px;
+}
+
+.text7 .par71{
+    font-family: myfont;
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.text7 .par72 {
+    font-family: myfont2;
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.text7 .par73{
+    font-family: myfont;
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+
+
+
+
+
